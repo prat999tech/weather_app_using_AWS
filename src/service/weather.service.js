@@ -4,6 +4,7 @@ import { getWeatherCache, saveWeatherCache } from '../models/weathercache.model.
 
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
+
 // TTL for cache in minutes (optional)
 const CACHE_TTL_MINUTES = 10;
 

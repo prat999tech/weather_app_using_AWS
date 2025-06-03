@@ -1,6 +1,7 @@
 service: weather-app-backend
 
-frameworkVersion: '3'
+frameworkVersion: "^4.15.1"
+
 
 provider:
   name: aws
@@ -10,8 +11,7 @@ provider:
     WEATHER_API_KEY: ${env:WEATHER_API_KEY}
     WEATHER_CACHE_TABLE: WeatherAppWeatherCache
 
-plugins:
-  - serverless-dotenv-plugin
+useDotenv: true
 
 functions:
   getWeatherByCoords:
