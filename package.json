@@ -1,0 +1,31 @@
+{
+  "name": "node-express-api",
+  "description": "weather-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Google LLC",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.821.0",
+    "@aws-sdk/lib-dynamodb": "^3.821.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0",
+    "serverless": "^4.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
