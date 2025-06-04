@@ -15,7 +15,7 @@ useDotenv: true
 
 functions:
   getWeatherByCoords:
-    handler: src/controllers/weatherController.getWeatherByCoords
+    handler: src/controller/weather.controller.getWeatherByCoords
     events:
       - httpApi:
           path: /weather

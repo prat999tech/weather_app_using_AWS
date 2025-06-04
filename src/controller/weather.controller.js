@@ -1,4 +1,3 @@
-// src/controllers/weatherController.js
 import { fetchWeatherByCoords } from '../services/weather.service.js';
 import { asyncHandler } from '../utils/asynchandler.js';
 import { apiresponse } from '../utils/apiresponse.js';
